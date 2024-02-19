@@ -9,8 +9,8 @@ COPY main.py .
 COPY requirements.txt .
 
 # Instalar dependencias
-RUN apt-get update && apt-get install ffmpeg libsm6 libxext6 -y
 RUN pip install -r requirements.txt
+RUN apt-get update && apt-get install ffmpeg libsm6 libxext6 -y
 
 # Comando por defecto para ejecutar tu script
 CMD ["python", "main.py"]
