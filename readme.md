@@ -25,7 +25,7 @@ python peticion.py --modo=original --ruta=path/to/image
 
 Los resultados son publicados por pantalla.
 
-
+<br><br><br>
 <h1 style="text-align: center;">Apartado 2</h1>
 
 ## 1. Pasos necesarios a seguir
